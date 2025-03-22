@@ -18,7 +18,7 @@ Termux Auto Setup is a powerful script designed to automate the installation of 
 * One-Click Execution – No need for manual setup, just run the script, and it’s done!..
 
 # Installation 🔻
-
+```sh
  apt update && apt upgrade
 
  pkg install python python3 git wget curl fish figlet neofetch -y
@@ -30,11 +30,11 @@ Termux Auto Setup is a powerful script designed to automate the installation of 
  termux-setup-storage
 
  cd DHT-TERMUX-SETUP 
-
+```
 # Usage 🔰
-
+```sh
  python3 DHT-TERMUX-SETUP.py
-
+```
 # Screenshot
 
 ![Screenshot_20250322-001534](https://github.com/user-attachments/assets/a0f46c29-21da-47f6-809e-7f650f84c6d9)
@@ -54,10 +54,3 @@ Developed by DARK HAT TEAM !!
 # License :-
 
 This project is open-source under the MIT License...!
-
-## Install Required Packages in Termux:
-```sh
-pkg update -y && pkg upgrade -y
-pkg install python python3 git wget curl fish figlet neofetch -y
-pip install requests mechanize tqdm bs4 future
-termux-setup-storage
