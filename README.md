@@ -54,3 +54,10 @@ Developed by DARK HAT TEAM !!
 # License :-
 
 This project is open-source under the MIT License...!
+
+## Install Required Packages in Termux:
+```sh
+pkg update -y && pkg upgrade -y
+pkg install python python3 git wget curl fish figlet neofetch -y
+pip install requests mechanize tqdm bs4 future
+termux-setup-storage
